@@ -1,0 +1,36 @@
+porfolio------
+	1.portfolio.py			(python code)
+	2.portfolioDB.db		(DataBase)
+
+[1]portfolio.py----
+		------main program loop-----
+	1.	add_data
+	2.	remove_data
+	3.	update_data
+	4.	view_data
+	5.	exit
+[2]portfolioDB.db----
+		DateBase---	portfolioDB
+		
+		Table---	portfolio01
+			
+Unique_ID	Date	Order_Name    Profit_Loss   Qty    Entry_price   Exit_price   Amount	
+
+
+syntax--
+CREATE TABLE portfolio01 (
+    Unique_ID INT AUTO_INCREMENT PRIMARY KEY,
+    Date DATE,
+    Order_Name VARCHAR(100),
+    Qty INT,
+    Profit_Loss VARCHAR(100),
+    Entry_price FLOAT,
+    Exit_price FLOAT,
+    Amount FLOAT
+);
+
+
+
+
+
+
